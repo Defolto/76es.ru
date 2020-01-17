@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Натяжные потолки</title>
+    <meta property="og:title" content="Натяжные потолки в Ярославле">
+    <meta property="og:site_name" content="76es.ru">
+    <meta property="og:url" content="http://76es.ru/">
+    <meta property="og:description" content="Предоставляем услуги по установке натяжных потолков в Ярославле">
+    <meta property="og:image" content="http://76уы.ru/img/logo.png">
+    <meta name="description" content="Установка натяжных потолков в Ярославле. Настоящая цена от 300 рублей за квадратный метр. Онлайн калькулятор для подсчёта стоимости потолка" />
+    <meta name="keywords" content="заказать купить недорого акция Ярославль натяжные потолки калькулятор квадратный метр образцы дёшево рыбинская 44а качество быстро установка матовые глянцевые одноуровневый сатиновый фото печать рассчитать стоимость гарантия 10 лет практичность долговечность безопасность цена">
+    <meta name="google-site-verification" content="6sIxfF_DEKTA_tUy7SwPmYedBoppYOZMa6bhX9jUwLY" />
+    <meta name="yandex-verification" content="3ef211a92dda8ddb" />
+    <meta name="yandex-verification" content="c5623dc1b52855ac" />
+</head>
+<body>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Обратный звонок</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="d-flex flex-column" action="mail.php" method="POST">
+                            <div class="d-flex flex-row">
+                                <label class="mr-2 modalText">Имя:<br>
+                                    <input type="text" class="formPole text-dark w-100" name="user_name">
+                                </label>
+                                <label class="ml-2 modalText">Номер телефона:<br>
+                                    <input type="tel" class="formPole text-dark w-100" name="user_phone">
+                                </label>
+                            </div>
+                            <button type="submit" class="myBtn">Обратный звонок</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="container-fluid pb-5" id="header">
+        <!-- <div id="header1"></div> -->
+        <div class="row">
+            <nav class="navbar navbar-expand-xl navbar-light w-100 fixed-top p-3">
+                <a class="navbar-brand"><img src="img/logo.png" height="48px" alt="ЕвроСтиль"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <div class="navbar-nav mr-auto mt-3 ml-4" id="menu">
+                        <a class="nav-item active nav-link" href="#aboutUs" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><p>
+                            О нас
+                        </p></a>
+                        <a class="nav-item nav-link" href="#gallery" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><p>
+                            Галерея
+                        </p></a>
+                        <a class="nav-item nav-link" href="#fon2" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><p>
+                            Калькулятор
+                        </p></a>
+                        <a class="nav-item nav-link" href="#review" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><p>
+                            Отзывы
+                        </p></a>
+                        <a class="nav-item nav-link" href="#contact" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><p>
+                            Контакты
+                        </p></a>
+                    </div>
+                    <div class="navbar-text text-center text-dark d-flex flex-row" id="headContact">
+                        <p class="mb-0 pr-3"><img src="img/phone_PNG48920.png" width="40px" alt="Номер Евростиль" srcset=""> 90-37-93</p>
+                        <button class="myBtn headBtn mx-auto" data-toggle="modal" data-target="#exampleModal">Обратный звонок</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+            <div class="row pad d-flex justify-content-center">
+                <div class="col-md-12 text-center">
+                    <h1 class="mainH1 pb-3">Натяжные потолки в Ярославле</h1>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-xl-5">
+                                <div class="blockSnowAction">
+                                        <h4 class="action"><span class="mt-auto act">НОВОГОДНЯЯ АКЦИЯ!</span> <img src="img/sale.png" alt=""></h4>
+                                        <div class="d-flex flex-row">
+                                            <div class="vertic">Осталось:</div>
+                                            <div class="blockDate flex-fill">
+                                                Дней <hr>
+                                                <span id="date1"></span>
+                                            </div>
+                                            <div class="blockDate flex-fill">
+                                                Часов <hr>
+                                                <span id="date2"></span>
+                                            </div>
+                                            <div class="blockDate flex-fill">
+                                                Минут <hr>
+                                                <span id="date3"></span>
+                                            </div>
+                                            <div class="blockDate flex-fill">
+                                                Секунд <hr>
+                                                <span id="date4"></span>
+                                            </div>
+                                        </div>
+                                        <p class="description"><h1>
+                                        <span class="wordAnim">Д</span><span class="wordAnim">А</span><span class="wordAnim">Р</span><span class="wordAnim">И</span><span class="wordAnim">М</span><span class="wordAnim otst">&nbsp;</span><br class="otst2"><span class="wordAnim">С</span><span class="wordAnim">К</span><span class="wordAnim">И</span><span class="wordAnim">Д</span><span class="wordAnim">К</span><span class="wordAnim">У</span><span class="wordAnim">&nbsp;</span><span class="wordAnim">3</span><span class="wordAnim">3</span><span class="wordAnim">%</span>
+                                              </h1></p>
+                                    </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <ul class="mainList">
+                                <li>
+                                    <p>Качественные материалы</p>
+                                </li>
+                                <li>
+                                    <p>от <s>450</s> <span class="redColor">300</span> рублей за м<sup>2</sup> под ключ</p>
+                                </li>
+                                <li>
+                                    <p>Установка за один день</p>
+                                </li>
+                                <li>
+                                    <p>Только опытный персонал</p>
+                                </li>
+                                <li class="mt-5 text-center" id="ClassLinkCalc">
+                                    <a href="#fon2" class="linkCalc">Расcчитать стоимость потолка<br>
+                                        <img src="img/bottom.png" width="50px" alt="Кнопка ещё" class="moveBottom" srcset="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Почему люди должны взять наяжные потолки -->
+    <div class="container-fluid pt-5 pb-2" id="bg-grad">
+        <div class="row d-flex justify-content-center text-center section">
+            <div class="inSection"></div>
+            <div class="line">Почему люди выбирают натяжные потолки</div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-1"></div>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <div class="col-md-3 text-center firstBlock">
+                <div class="firstTitle">Эстетичность</div>
+                <div class="firstText">Натяжной потолок формирует абсолютно ровную поверхность. А под полотно спрячутся все дефекты старого потолка, коммуникационные провода и трубы.</div>
+            </div>
+            <div class="col-md-3 text-center firstBlock">
+                <div class="firstTitle">Практичность</div>
+                <div class="firstText">Если у соседей сверху прорвет кран или начнут подтекать батареи, натяжные потолки защитят вашу мебель и технику от затопления. И станут дополнительной защитой от шума соседских вечеринок.</div>
+            </div>
+            <div class="col-md-3 text-center firstBlock">
+                <div class="firstTitle">Долговечность</div>
+                <div class="firstText">Производители и монтажники дают гарантию на свою продукцию 5 лет. Но если не подвергать натяжной потолок механическим воздействиям, то он с легкостью прослужит и 30 лет.</div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <div class="col-md-3 text-center firstBlock">
+                <div class="firstTitle">Безопасность</div>
+                <div class="firstText">Производители натяжных потолков ручаются за множество факторов, таких как экологичность, пожаробезопасность, отсутствие запаха, нетоксичность и т.д.</div>
+            </div>
+            <div class="col-md-3 text-center firstBlock">
+                <div class="firstTitle">Быстрая установка</div>
+                <div class="firstText">Натяжные потолки не вызывают у монтажников больших трудностей, а следовательно и установка вашего нового потолка не займёт больше одного дня.</div>
+            </div>
+            <div class="col-md-3 text-center firstBlock">
+                <div class="firstTitle">Дизайнерские решения</div>
+                <div class="firstText">Благодаря влагостойкости натяжные потолки можно использовать в разных помещениях, даже на кухне и в бассейне. А гибкость позволяет придать им интересные формы.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5" id="fon2">
+        <div class="row d-flex justify-content-center text-center section">
+            <div class="inSection"></div>
+            <div class="line">Рассчитать стоимость</div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-1"></div>
+        </div>
+        <div class="row px-5 rowCalc">
+            <div class="col-xl-7 px-0">
+                <div>
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                        <label class="my-1 labelWidth" for="fon">Квадратных метров (от 10):<br>
+                            <input type="number" class="selec formPole1 text-dark" id="meter" value="10">
+                            <small>300 рублей от 50 м <sup>2</sup></small>
+                        </label>
+                        </div>
+                        <div class="col-lg-6">
+                        <label class="my-1 mr-2 labelWidth" for="fon">Количество светильников:<br>
+                            <input type="number" class="selec formPole1 text-dark" id="light" value="0">
+                        </label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                        <label class="my-1 labelWidth" for="fon">Обвод трубы:<br>
+                            <input type="number" class="selec formPole1 text-dark" id="tube" value="0">
+                        </label>
+                        </div>
+                        <div class="col-lg-6">
+                            <label class="my-1 mr-2 labelWidth" for="fon">Количество углов (4 бесплатно):<br>
+                                <input type="number" class="selec formPole1 text-dark" id="corner" value="4">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-6">
+                            <label class="my-1 labelWidth" for="fon">Периметр (погон. метр):<br>
+                                <input type="number" class="selec formPole1 text-dark" id="perimeter" value="0">
+                            </label><br>
+                            <input type="checkbox" id="scales" name="scales" class="checkid">
+                            <label for="scales">Монтаж в плитку</label>
+                        </div>
+                        <div class="col-lg-6 price">
+                            <label class="my-1 mr-2 labelWidth" for="price">Ваша цена:<br>
+                                <input type="text" class="formPole1 text-dark" readonly id="price">
+                            </label>
+                        </div>
+                        <p class="">*Цена может отличатья в связи с объёмами работ и их сложностью</p>
+                    </div><br>
+                    <!-- <button id="checkPrice" class="myBtn">Рассчитать стоимость</button> -->
+                </div>
+            </div>
+            <div class="col-md-6">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 p-3 whiteFon" id="aboutUs">
+        <div class="row d-flex justify-content-center text-center section">
+            <div class="inSection"></div>
+            <div class="line">6 причин выбрать именно нас</div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4 text-right">
+                <div class="d-flex justify-content-end sixBlock align-self-end">
+                    <p class="d-flex"><div class="my-auto title">
+                        10 лет на рынке
+                    </div></p>
+                <img src="img/icons8-1-100.png" alt="1 причина" srcset="" width="100px" height="100px">
+            </div>
+                <p>Наша компания занимается продажей и установкой натяжных потолков в Ярославле с 2010 года</p>
+            </div>
+            <div class="col-md-4 text-left">
+                <div class="d-flex justify-content-start sixBlock">
+                <img src="img/icons8-2-100.png" alt="2 причина" srcset="" width="100px" height="100px">
+                <p class="d-flex"><div class="my-auto title">
+                    Гарантия 10 лет
+                </div></p>
+            </div>
+                <p>Мы уверены в качестве всех видов выполняемых работ, поэтому всем клиентам даём гарантию 10 лет</p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4 text-right">
+                <div class="d-flex justify-content-end sixBlock">
+                    <p class="d-flex"><div class="my-auto title">
+                        Быстрая установка
+                    </div></p>
+                <img src="img/icons8-3-100.png" alt="3 причина" srcset="" width="100px" height="100px">
+            </div>
+                <p>Как только Вы заключили с нами договор, наша компания готова в любое удобное для Вас время выполнить установку натяжных потолков</p>
+            </div>
+            <div class="col-md-4 text-left">
+                <div class="d-flex justify-content-start sixBlock">
+                <img src="img/icons8-4-100.png" alt="4 причина" srcset="" width="100px" height="100px">
+                <p class="d-flex"><div class="my-auto title">
+                    Гарантия качества
+                </div></p>
+            </div>
+                <p>Всем нашим клиентам мы устанавливаем исключительно качественные и проверенные временем натяжные потолки Германии, Франции, Китая и России</p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4 text-right">
+                <div class="d-flex justify-content-end sixBlock">
+                    <p class="d-flex"><div class="my-auto title">
+                        Опытные работники
+                    </div></p>
+                <img src="img/icons8-5-100.png" alt="5 причина" srcset="" width="100px" height="100px">
+            </div>
+                <p>У нас работают профессионалы с многолетним стажем, которые готовы выполнить заказ любого объёма и сложности.</p>
+            </div>
+            <div class="col-md-4 text-left">
+                <div class="d-flex justify-content-start sixBlock">
+                <img src="img/icons8-6-100.png" alt="6 причина" srcset="" width="100px" height="100px">
+                <p class="d-flex"><div class="my-auto title">
+                    Точная цена
+                </div></p>
+            </div>
+                <p>После того, как были проведены все замеры и договорённости мы фиксируем определённую цену и больше не меняем её на протяжении всех работ</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-5 bg-light" id="gallery">
+            <div class="row d-flex justify-content-center text-center section">
+                <div class="inSection"></div>
+                <div class="line">Вы найдёте то, что вам по вкусу</div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-1"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                        <input type="checkbox" id="pic-1"/>
+                        <label for="pic-1" class="lightbox"><img src="img/foto1.jpg"/></label>
+                        <input type="checkbox" id="pic-2"/>
+                        <label for="pic-2" class="lightbox"><img src="img/foto2.jpg"/></label>
+                        <input type="checkbox" id="pic-3"/>
+                        <label for="pic-3" class="lightbox"><img src="img/foto3.jpg"/></label>
+                        <input type="checkbox" id="pic-4"/>
+                        <label for="pic-4" class="lightbox"><img src="img/foto4.jpg"/></label>
+                        <input type="checkbox" id="pic-5"/>
+                        <label for="pic-5" class="lightbox"><img src="img/foto5.jpg"/></label>
+                        <input type="checkbox" id="pic-6"/>
+                        <label for="pic-6" class="lightbox"><img src="img/foto6.jpg"/></label>
+                        <input type="checkbox" id="pic-7"/>
+                        <label for="pic-7" class="lightbox"><img src="img/foto7.jpg"/></label>
+                        <input type="checkbox" id="pic-8"/>
+                        <label for="pic-8" class="lightbox"><img src="img/foto8.jpg"/></label>
+                        <input type="checkbox" id="pic-9"/>
+                        
+                        <div class="grid">
+                        
+                         <label for="pic-1" class="grid-item"><img src="img/foto1.jpg"/><br>
+                            <h3>Одноуровневый потолок</h3>
+                            <p>Самый простой и дешёвый вариант из всех возможных. Однако даже такой вид потолков не боится перепадов температур и очень прост в уходе. Имеется много цветов и рисунков</p>
+                        </label>
+                         <label for="pic-2" class="grid-item"><img src="img/foto2.jpg"/>
+                            <h3>Многоуровневый потолок</h3>
+                            <p>Данный вид потолков позволяет Вам проявить свои фантазии и выделить конкретные зоны комнаты. Установка не такая сложная, как может показаться с первого взгляда и это хорошо сказывается на цене</p>
+                        </label>
+                         <label for="pic-3" class="grid-item"><img src="img/foto3.jpg"/>
+                            <h3>"Звездное небо"</h3>
+                            <p>Это обыкновенный плоский (чаще всего глянцевый) потолок, который оборудуют специальным осветительным оборудованием. Оптоволоконный кабель позволяет во всей красе показать звезды, планеты и галактики. Эффект звездного мерцания дает возможность почувствовать себя среди иных миров</p>
+                        </label>
+                         <label for="pic-4" class="grid-item"><img src="img/foto4.jpg"/>
+                            <h3>Фото печать</h3>
+                            <p>И на тканевом, и на поливинилхлоридном потолке может быть выполнена фотопечать. Сделать это помогает принтер широкого формата. Таким способом можно замечательно украсить комнату. Например, аппетитный натюрморт отлично впишется в кухонный интерьер, кадр из мультика – в детскую, а репродукция любимой картины – в гостиную.</p>
+                        </label>
+                         <label for="pic-5" class="grid-item"><img src="img/foto5.jpg"/>
+                            <h3>Глянцевый потолок</h3>
+                            <p>Глянцевый (иначе, лаковый) потолок способен зрительно сделать комнату больше. Он хорош для небольшой комнатки, ванной, бассейна. Интересный эффект может дать применение глянцевой поверхности при зонировании комнаты. Особенно удачно смотрится отделка такой фактурой темных углов.</p>
+                        </label>
+                         <label for="pic-6" class="grid-item"><img src="img/foto6.jpg"/>
+                            <h3>Сатиновый потолок</h3>
+                            <p>Сатиновый потолок похож на поверхность, покрытую краской с легким блеском. В отличие от матовой поверхности, у сатина присутствует отражающий эффект. Но он не зеркальный, как у глянца, а очень мягкий. В комнате с таким шелковистым потолком уютно и по-домашнему мило, поэтому его очень часто устанавливают в спальнях.</p>
+                        </label>
+                         <label for="pic-7" class="grid-item"><img src="img/foto7.jpg"/>
+                            <h3>Конусовидный потолок</h3>
+                            <p>Этот вариант может понадобиться тогда, когда в помещении имеются колонны. Конусовидный потолок (любого цвета, диаметра и фактуры) плавно перетечет к ним, завершая общую картину. При этом конус может либо «вырастать» из общей плоскости, либо представлять собой отдельный элемент</p>
+                        </label>
+                         <label for="pic-8" class="grid-item"><img src="img/foto8.jpg"/>
+                            <h3>Матовый потолок</h3>
+                            <p>Самый популярный вариант – матовый натяжной потолок. Он весьма напоминает виртуозно оштукатуренную поверхность. Один из самых популярных видов потолков, очень хорошо сочетается с прямыми плоскостями и классическим интерьером</p>
+                        </label>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- о компании -->
+    <!-- <div class="container-fuild stat bg-light">
+        <div class="row" id="stat">
+            <div class="col-md-3 p-4 d-flex">
+                <div style="margin: auto">
+                    <p class="text-center statText">ЕвроСтрой<br> это:</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center p-4 d-flex">
+                <div style="margin: auto">
+                    <p class="statText">Защита прав потребителей</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center p-4 d-flex">
+                <div style="margin: auto">
+                    <p class="statText">Бесплатная консультация</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center p-4 d-flex">
+                <div style="margin: auto">
+                    <p class="statText">Образцы претензий</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+    <div class="container-fluid py-4" id="fonForm">
+            <div class="row d-flex justify-content-center text-center section">
+                    <div class="inSection"></div>
+                    <div class="line text-dark">Три простых шага к натяжным потолкам</div>
+                </div>
+                <div class="row d-flex justify-content-center mb-3">
+                    <div class="col-1"></div>
+                </div>
+                <div class="row d-flex justify-content-center text-center">
+                    <div class="col-md-3 d-flex">
+                        <div style="margin: auto">
+                            <p class="statText">Оставьте бесплатную заявку на сайте прямо сейчас</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 hid">
+                        <img src="img/right.png" alt="кнопка следовательно" width="100%" class="animat">
+                    </div>
+                    <div class="col-md-3 d-flex">
+                        <div style="margin: auto">
+                            <p class="statText">Дождитесь нашего ответа в течение одного часа</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1 hid">
+                        <img src="img/right.png" alt="кнопка следовательно" width="100%" class="animat"> 
+                    </div>
+                    <div class="col-md-3 d-flex">
+                        <div style="margin: auto">
+                            <p class="statText">Ожидайте приезда наших мастеров для монтажа</p>
+                        </div>
+                    </div>
+                </div>
+        <form  action="mail2.php" method="POST">
+            <div class="row py-3">
+                <div class="col-md-3 text-center">
+                <input type="text" placeholder="Имя" name="user_name" class="formPole pt-3 text-dark">
+                </div>
+                <div class="col-md-3 text-center">
+                <input type="text" placeholder="Телефон" name="user_phone" class="formPole pt-3 text-dark">
+                </div>
+                <div class="col-md-3 text-center">
+                <input type="text" placeholder="Email" name="user_email" class="formPole pt-3 text-dark">
+                </div>
+                <div class="col-md-3 text-center d-flex justify-content-center">
+                <button type="submit" class="myBtn">Оставить заявку</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- отзовы -->
+    <div class="container-fluid py-5 bg-light" id="review">
+        <div class="row">
+            <div class="col-md-6 text-center px-5 pt-2 divReview">
+                <p class="reviewTitle">Каждый отзыв нашего клиента очень важен для нас<br>Оставьте и Вы своё слово о нашей компании!</p>
+                <div class="wrap">
+                    <div class="gradient">
+                        <form action="mail3.php" method="POST">
+                            <div class="form-row">
+                                <div class="col text-left">
+                                    <label for="validationDefault01" class="mb-0 revieBack">Имя:</label><br>
+                                    <input type="text" class="w-50 mailPole"  id="validationDefault01" name="user_name" placeholder="" required><br>
+                                    
+                                    <label for="validationDefault04" class="mb-0 mt-4 revieBack">Отзыв:</label><br>
+                                    <textarea  id="validationDefault04" class="w-75 mailPole" rows="2" name="user_phone"></textarea><br>
+                                    <div class="d-flex mt-4 d-flex justify-content-center" id="button">
+                                        <button type="submit" class="requestFooter myBtn">Отправить отзыв</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Должны быть в границах, но со скроллингом -->
+            <div class="col-md-6 d-flex">
+                <div class="comments">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="comment">
+                                <p>Мария</p>
+                                <p>Заказала потолки и осталась довольна результатом, спасибо!</p>
+                            </div>
+                            <div class="comment">
+                                <p>Дмитрий</p>
+                                <p>Ребята молодцы, установили всё быстро и без лишних хлопот для меня. Так же хорошо проконсультировал Александр, за это отдельная ему благодарность</p>
+                            </div>
+                            <div class="comment">
+                                <p>Максим</p>
+                                <p>Оставил заявку на сайте и через 5 минут меня уже консультировали по телефону, а на следующий день уже делали замеры, вот жду завтра новые потолки</p>
+                            </div>
+                            <div class="comment">
+                                <p>Оксана</p>
+                                <p>Порадовало, что монтажники оказались спокойными и тихими (могла спокойно заниматься своими делами). После работ всё показали и дали время всё самой проверить</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="comment">
+                                <p>Катя</p>
+                                <p>Посоветовала подруга данную компанию за профессионализм, быстроту и цену. Осталась полностью довольна всем</p>
+                            </div>
+                            <div class="comment">
+                                <p>Олег</p>
+                                <p>Решили в офисе сменить потолки на натяжные и обратился сюда. Спустя 3 дня уже приехали ребята и делали свою работу.<br>P.s очень порадовала скидка за большую площадб потолка
+                                </p>
+                            </div>
+                            <div class="comment">
+                                <p>Вика</p>
+                                <p>Про эту компанию можно сказать только два слова: быстро и дёшево. У меня на этом всё</p>
+                            </div>
+                            <div class="comment">
+                                <p>Андрей</p>
+                                <p>Убедили купить китайские потолки вместо немецкий в пользу экономии и того же качества. Вот спустя 3 месяца пришёл написать спасибо, не соврали</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="container-fluid p-0 bg-light" style="height: 300px" id="contact">
+        <div class="col-md-12 p-0 m-0">
+            <div class="map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa6f5bcbc4c3d3336c0cd48dd88094805874e0886d2be894d46df2a245db269d3&amp;source=constructor" width="100%" height="300" frameborder="0"></iframe>            <div class="textMap d-flex">
+                    <div class="textMapIn text-center px-2">
+                        <p>г. Ярославль, ул. Рыбинская 44а</p>
+                        <p>Работаем с 8:00 до 21:00 без обеда и выходных</p>
+                        <div class="showMap">Показать карту</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light py-4">
+        <div class="row" id="footer">
+            <div class="col-md-4 d-flex">
+                <div class="my-auto pb-3">
+                	<img src="img/logo.png" height="50px" alt="ЕвроСтиль" srcset="">
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <p class="mb-1">Все права защищены</p>
+                <p>Собственность "ЕвроСтиль"</p>
+            </div>
+            <div class="col-md-4 text-right">
+                <p class="mb-0">90-37-93</p>
+                <p class="mb-0">+7 (920) 652-19-07</p>
+                <p class="mb-0">mirokon76@mail.ru</p>
+            </div>
+        </div>
+    </div>
+    <div id="phone" class="fixed-bottom pb-1 pr-3">
+        <a href="tel:+74852903793" class="float-right">
+            <img src="img/phoneButton.png" alt="Номер ЕвроСтиль">
+        </a>
+    </div>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+    ym(56074774, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/56074774" style="position:absolute; left:-9999px;" alt="Яндекс Метрика" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+    <script src="jquery-1.11.0.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
