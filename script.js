@@ -11,14 +11,8 @@ function getValue(a) {
 function getPrice() {
     var summ = 0;
     var part = document.getElementsByClassName('selec');
-    // квадратных метров > 10
-    if(getValue(part[0]) < 10){
-        $('#meter').val("10");
-        summ += 3500;
-    }
-    else{
-        summ += Number(getValue(part[0])) * 350;
-    }
+    
+    summ += Number(getValue(part[0])) * 350;
 
     summ += Number(getValue(part[1])) * 250;
     $('#light').val(getValue(part[1]));
